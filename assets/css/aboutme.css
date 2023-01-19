@@ -1,0 +1,54 @@
+.aboutme{
+    display: flex;
+}
+
+.aboutme__profile{
+    width: 33vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutme__profile--img{
+    width: 19rem;
+    height: 19rem;
+    background-image: url(../image/gabriel.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10rem;
+    border-radius: 10rem;
+}
+
+.aboutme__profile--btn{
+    margin-top: 3rem;
+    width: 19rem;
+    height: 3.5rem;
+    border-radius: 5rem;
+    color: white;
+    background-color: #256565;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.aboutme__about{
+    width: 66vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aboutme__about--title{
+    font-size: 3rem;
+    color: white;
+    margin-top: 7rem;
+}
+
+.aboutme__about--text{
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 2rem;
+    width: 70%;
+    line-height: 2.5rem;
+    text-align: justify;
+}
