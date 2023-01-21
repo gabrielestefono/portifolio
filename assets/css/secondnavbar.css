@@ -1,0 +1,37 @@
+.second-navbar{
+    width: 100vw;
+    height: 3rem;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-navbar__show{
+    margin-left: 5rem;
+    cursor: pointer;
+    height: 3rem;
+    border: 1px solid black;
+    width: 8rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.second-navbar__filters{
+    display: flex;
+}
+
+.second-navbar__item{
+    margin-right: 4rem;
+    cursor: pointer;
+    height: 3rem;
+    border: 1px solid black;
+    width: 8rem;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.filter1{
+    width: 1rem;
+    margin-left: 0.5rem;
+}

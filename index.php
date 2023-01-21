@@ -10,6 +10,7 @@ include_once("helpers/url.php");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desenvolvedor Gabriel</title>
     <link rel="stylesheet" href="<?=$BASE_URL?>/assets/css/style.css">
+    <script src="https://kit.fontawesome.com/2a8f6f7900.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <section class="first-section">
@@ -18,14 +19,15 @@ include_once("helpers/url.php");
                 <p style="font-size: 2rem; color: white; text-align:center; line-height: 4.5rem;">Logo</p>
             </div>
             <div class="navbar__menu">
-                <a href="#" class="navbar__menu--text"><div class="navbar__menu--login">Login</div></a>
+                <a href="#" class="navbar__menu--text"><div class="navbar__menu--login" id="login">Login</div></a>
                 <div class="navbar__menu--sep navbar__menu--text">|</div>
-                <a href="#" class="navbar__menu--text"><div class="navbar__menu--register">Registre-se</div></a>
+                <a href="#" class="navbar__menu--text"><div class="navbar__menu--register" id="register">Registre-se</div></a>
             </div>
         </nav>
         <article class="aboutme">
             <div class="aboutme__profile">
                 <div class="aboutme__profile--img"></div>
+                <h1 class="aboutme__profile--name"> Gabriel Estéfono</h1>
                 <button class="aboutme__profile--btn" id="projects">Projetos</button>
                 <button class="aboutme__profile--btn" id="contact">Contato</button>
                 <button class="aboutme__profile--btn" id="learn">Aprenda Comigo</button>
@@ -42,8 +44,42 @@ include_once("helpers/url.php");
             </div>
         </article>
     </section>
-    <section class="second-section"></section>
-    <section class="third-section"></section>
-    <script src="<?=$BASE_URL?>/assets/js/script.js"></script>
+    <section class="second-section">
+        <article class="secondnavbar">
+            <div class="second-navbar">
+                <div class="second-navbar__show">Mostrar<i class="fa-solid fa-filter filter1"></i></div>
+                <div class="second-navbar__filters">
+                    <div class="second-navbar__order second-navbar__item">Ordenar<i class="fa-solid fa-filter filter1"></i></div>
+                    <div class="second-navbar__filter second-navbar__item">Filtrar<i class="fa-solid fa-filter filter1"></i></div>
+                </div>
+            </div>
+        </article>
+        <article class="projects">
+            <div class="projects__card">
+                <img src="assets/image/card1.jpg" alt="" class="projects__card--image">
+                <p class="projects__card--title">Expenses chart component</p>
+                <div class="projects__card--description">FrontEnd</div>
+                <div class="projects__card--icons">
+                <div class="projects__card--icons-icon">
+                        <img src="assets/image/css3.svg" class="projects__card--icons-icon_img">
+                    </div>
+                    <div class="projects__card--icons-icon">
+                        <img src="assets/image/html5.svg" class="projects__card--icons-icon_img">
+                    </div>
+                    <div class="projects__card--icons-icon">
+                        <img src="assets/image/html5.svg" class="projects__card--icons-icon_img">
+                    </div>
+                    <div class="projects__card--icons-icon">
+                        <img src="assets/image/html5.svg" class="projects__card--icons-icon_img">
+                    </div>
+                    <div class="projects__card--icons-icon">
+                        <img src="assets/image/html5.svg" class="projects__card--icons-icon_img">
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+    <section class="third-section"></section>   
+    <script src="<?=$BASE_URL?>/assets/js/listeners.js" type="module"></script>
 </body>
 </html>

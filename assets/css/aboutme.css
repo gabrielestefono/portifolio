@@ -19,8 +19,15 @@
     border-radius: 10rem;
 }
 
+.aboutme__profile--name{
+    margin-top: 0rem;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
 .aboutme__profile--btn{
-    margin-top: 3rem;
+    margin-top: 2rem;
     width: 19rem;
     height: 3.5rem;
     border-radius: 5rem;
