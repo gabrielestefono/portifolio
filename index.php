@@ -24,22 +24,25 @@ include_once("helpers/url.php");
                 <a href="#" class="navbar__menu--text"><div class="navbar__menu--register" id="register">Registre-se</div></a>
             </div>
         </nav>
+        <article>
+            <div class="navegationitems">
+                <div class="navegationitems__home" id="floating__home-btn"><img src="assets/image/home-icon.svg" alt="" class="navegationitems__icon"><p class="navegationitems__text">Home</p></div>
+                <div class="navegationitems__projects" id="floating__projects-btn"><img src="assets/image/project-icon.svg" alt="" class="navegationitems__icon"><p class="navegationitems__text">Projetos</p></div>
+                <div class="navegationitems__contact" id="floating__contact-btn"><img src="assets/image/contact-icon.svg" alt="" class="navegationitems__icon"><p class="navegationitems__text">Contato</p></div>
+            </div>
+        </article>
         <article class="aboutme">
             <div class="aboutme__profile">
                 <div class="aboutme__profile--img"></div>
-                <h1 class="aboutme__profile--name"> Gabriel Estéfono</h1>
+                <h1 class="aboutme__profile--name">Gabriel Estéfono</h1>
                 <button class="aboutme__profile--btn" id="projects">Projetos</button>
                 <button class="aboutme__profile--btn" id="contact">Contato</button>
                 <button class="aboutme__profile--btn" id="learn">Aprenda Comigo</button>
             </div>
             <div class="aboutme__about">
-                <h3 class="aboutme__about--title">Título Sobre mim</h3>
+                <h3 class="aboutme__about--title">SOBRE MIM</h3>
                 <p class="aboutme__about--text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis pariatur illo sunt facere debitis! Molestias temporibus sequi iure fuga autem, sint mollitia quod ratione nobis a saepe ut reiciendis consequuntur?
-                Asperiores deleniti labore nihil quod in, veritatis sit qui vero. Sit cum id ullam culpa! At consectetur placeat dicta. Fuga accusamus tempora, explicabo commodi quaerat ipsum. Obcaecati ipsa eum ipsum!
-                Ut aliquam deleniti sapiente soluta totam. Ea quibusdam aliquid vitae culpa eveniet ipsum hic officia earum corporis fuga maiores, quae debitis ipsa dicta corrupti velit tempore sapiente aspernatur nisi sed.
-                Blanditiis ex dolores ut doloremque totam iure. Ipsam vero nulla porro similique! Id exercitationem possimus harum magni, omnis aspernatur quam dignissimos assumenda. Mollitia ex beatae dolores velit et, nam eligendi!
-                Expedita accusantium vitae adipisci illum sunt minus blanditiis doloremque magni explicabo, excepturi quasi maiores perferendis qui. Autem nesciunt beatae expedita cupiditate, accusamus dignissimos, dolorum tempora ipsa minus perferendis excepturi id.
+                    Olá! Meu nome é Gabriel Estéfono, eu sou desenvolvedor frontend e atualmente, estou estudando para backend. <br> Eu sou de uma cidadezinha no interior de Minas Gerais, mas atualmente eu moro no paraná. Vim para cá a cerca de 6 anos a procura de melhores condições. Entrei em uma empresa de alimentos, que é onde atualmente eu trabalho, e é onde aprendi muito sobre trabalho em equipe e organização pessoal. Tive meu primeiro contato com web design, já bem novo, no site fundação Bradesco, mas nunca imaginei que iria trabalhar na área, mas tudo mudou a pouco mais de 2 anos, quando tive a ideia de começar meu negócio digital, e comecei a estudar um pouco sobre desenvolvimento web, acabei não conseguindo fazer o que gostaria, mas descobri que gostava da área, e então comecei a estudar data science, aprendi razoavelmente a trabalhar com python para análise de dados, descobri que o estudo de ciência de dados é muito imaginativo, pois não existem formas fáceis de medir o seu progresso. Então resolvi começar pelo frontend, já que a cada página criada, você claramente ver uma melhora. Quando achei que estava pronto, resolvi começar a estudar backend e estou no meu caminho para fullstack. 
                 </p>
             </div>
         </article>
@@ -66,20 +69,29 @@ include_once("helpers/url.php");
                     <div class="projects__card--icons-icon">
                         <img src="assets/image/html5.svg" class="projects__card--icons-icon_img">
                     </div>
-                    <div class="projects__card--icons-icon">
-                        <img src="assets/image/html5.svg" class="projects__card--icons-icon_img">
-                    </div>
-                    <div class="projects__card--icons-icon">
-                        <img src="assets/image/html5.svg" class="projects__card--icons-icon_img">
-                    </div>
-                    <div class="projects__card--icons-icon">
-                        <img src="assets/image/html5.svg" class="projects__card--icons-icon_img">
-                    </div>
                 </div>
             </div>
         </article>
     </section>
-    <section class="third-section"></section>   
+    <section class="third-section">
+        <article class="contact">
+            <div class="contact__messenge">
+                <p class="contact__messenge--title">Contato</p>
+                <p class="contact__messenge--text">Entre em contato comigo, caso queira lorem impsum lore lorem impsum lore lorem.</p>
+                <p class="contact__messenge--text">Caso também queira aprender algo do site lorem lorem impsum lore lorem impsum lore lorem.</p>
+                <img src="assets/image/dispositivos.png" class="contact__messenge--image">
+                <div class="contact__messenge--whatsapp">
+                    <img src="assets/image/whatsapp.svg" class="contact__messenge--whatsapp-icon">
+                </div>
+            </div>
+            <div class="contact__form">
+                <input type="text" class="contact__form--name" placeholder="Seu nome">
+                <input type="text" class="contact__form--email" placeholder="Seu email">
+                <textarea class="contact__form--messenge" placeholder="Sua mensagem"></textarea>
+                <input type="submit" class="contact__form--button"  value="Enviar">
+            </div>
+        </article>
+    </section>   
     <script src="<?=$BASE_URL?>/assets/js/listeners.js" type="module"></script>
 </body>
 </html>
