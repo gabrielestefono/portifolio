@@ -5,7 +5,7 @@ body{
 
 .first-section{
     width: 100vw;
-    height: 100vh;
+    height: calc(100vh - 4.5rem);
     background-color: #122126;
 }
 

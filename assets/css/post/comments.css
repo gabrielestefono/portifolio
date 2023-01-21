@@ -1,0 +1,41 @@
+.comments__title{
+    margin-left: 17vw;
+    font-size: 2rem;
+    margin-top: 4rem;
+}
+
+.comments__space{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-radius: 26px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.comments__space--picture{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50px;
+    margin: 1px;
+}
+
+.comments__space--picture-profile{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 50px;
+}
+
+.comments__space--text_name{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.comments__space--text_comment{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 72vw;
+    text-align: justify;
+    margin-bottom: 1rem;
+}
