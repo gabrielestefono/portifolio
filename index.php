@@ -1,6 +1,4 @@
-<?php
-include_once("templates/header.php");
-?>
+<?php include_once("templates/header.php"); ?>
     <section class="first-section">
         <article>
             <div class="navegationitems">

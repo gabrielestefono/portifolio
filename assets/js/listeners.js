@@ -9,6 +9,7 @@ const learnButton = document.querySelector("#learn");
 const floatingHomeButton = document.querySelector("#floating__home-btn");
 const floatingProjectButton = document.querySelector("#floating__projects-btn");
 const floatingContactButton = document.querySelector("#floating__contact-btn");
+const login = document.querySelector("#login")
 
 projectButton.addEventListener("click", ()=>{
     document.documentElement.scrollTop = window.innerHeight;
