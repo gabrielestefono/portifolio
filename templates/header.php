@@ -22,6 +22,6 @@
             <div class="navbar__menu">
                 <a href="#" class="navbar__menu--text"><div class="navbar__menu--login" id="login">Login</div></a>
                 <div class="navbar__menu--sep navbar__menu--text">|</div>
-                <a href="#" class="navbar__menu--text"><div class="navbar__menu--register" id="register">Registre-se</div></a>
+                <a href="<?=$BASE_URL?>register.php" class="navbar__menu--text"><div class="navbar__menu--register" id="register">Registre-se</div></a>
             </div>
         </nav>
