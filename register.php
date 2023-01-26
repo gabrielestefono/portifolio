@@ -1,7 +1,9 @@
 <?php include_once("templates/header.php"); ?>
 
 <section class="register">
-    <div class="register__illustration"></div>
+    <div class="register__illustration">
+        <p>Imagem vai aqui, ver com designer sobre ela</p>
+    </div>
     <div class="register__form">
         <div class="register__form--topbuttons">
             <div class="register__form--topbuttons_google">
