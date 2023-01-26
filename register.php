@@ -2,7 +2,9 @@
 
 <section class="register">
     <div class="register__illustration">
-        <p>Imagem vai aqui, ver com designer sobre ela</p>
+        <p class="register__illustration--text">Imagem vai aqui, ver com designer sobre ela</p>
+        <div class="register__illustration--image"></div>
+        <p class="register__illustration--text">Subtítulo ou algo assim</p>
     </div>
     <div class="register__form">
         <div class="register__form--topbuttons">
