@@ -6,6 +6,6 @@
         <input type="text" class="login__input">
         <button class="login__button">Login</button>
         <a href="" class="login__link link__1">Esqueceu sua senha?</a>
-        <a href="" class="login__link link__2">Não possui uma conta?</a>
+        <a href="" class="login__link link__2">Não possui uma conta? Registre-se</a>
     </div>
 </section>
