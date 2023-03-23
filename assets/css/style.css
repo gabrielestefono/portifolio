@@ -2,6 +2,8 @@
 @import url("header.css");
 @import url("content_profile.css");
 @import url("content_about.css");
+@import url("showcards.css");
+
 body{
     background-image: radial-gradient(#394044, #0E1316);
     background-size: contain;

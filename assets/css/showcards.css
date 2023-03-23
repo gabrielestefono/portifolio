@@ -1,0 +1,10 @@
+.showcards{
+    margin-top: 4rem;
+    height: 100vh;
+}
+
+.showcards__navbar{
+    background-color: black;
+    width: 100vw;
+    height: 5rem;
+}

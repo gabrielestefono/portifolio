@@ -27,11 +27,20 @@ include_once("./templates/header.php");
     </div>
     <div class="content__about">
         <div class="content__about--links">
-            <a href="" class="content__about--links_link"><div class="about__me--link"><p class="about__me--link_title">Experiência</p></div></a>
-            <a href="" class="content__about--links_link"><div class="about__me--link"><p class="about__me--link_title">Contato</p></div></a>
-            <a href="" class="content__about--links_link"><div class="about__me--link"><p class="about__me--link_title">Sobre</p></div></a>
+            <a href="" class="content__about--links_link"><div class="about__me--link-1"><p class="about__me--link_title">Experiência</p></div></a>
+            <a href="" class="content__about--links_link"><div class="about__me--link-2"><p class="about__me--link_title">Contato</p></div></a>
+            <a href="" class="content__about--links_link"><div class="about__me--link-3"><p class="about__me--link_title">Sobre</p></div></a>
         </div>
+        <div class="content__about--descriptions">
+        <p class="content__about--descriptions--description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos molestias ab cupiditate officiis veritatis unde 
+            vero neque adipisci nemo quasi id corrupti ullam dolorem beatae, odio sequi natus est exercitationem?
+            Est consequatur odit voluptatum, optio quisquam culpa repellat adipisci fugiat explicabo omnis distinctio modi unde magni ex iste libero totam perferendis eius rerum 
+            porro quos consectetur quas! Consequatur, sunt temporibus!</p>
     </div>
+    </div>
+</section>
+<section class="showcards">
+    <div class="showcards__navbar"></div>
 </section>
 
 <?php
