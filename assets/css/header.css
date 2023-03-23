@@ -1,0 +1,47 @@
+.header{
+    background-color: black;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-logo{
+    width: 11rem;
+    height: 6rem;
+    background-image: url(../img/logo1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.login{
+    width: 100vw;
+    height: calc(100vh - 3rem);
+    background-color: #122126;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login__item-1{
+    width: calc(62vw - 4rem);
+    height: 3rem;
+    border-radius: 3rem;
+    border: none;
+    padding: 0 2rem 0 2rem;
+    font-size: 1.25rem;
+}
+
+.login__item-1:last-child{
+    margin-top: 1rem;
+}
+
+.login__item-2{
+    width: 62vw;
+    height: 3rem;
+    border-radius: 3rem;
+    border: none;
+    margin-top: 1rem;
+    font-size: 1.25rem;
+}
