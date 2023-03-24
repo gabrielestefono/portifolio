@@ -5,23 +5,21 @@ include_once("./templates/header.php");
 <section class="content">
     <div class="content__profile">
         <div class="content__profile--profile_picture">
-            <img src="assets/img/perfil.png" alt="Foto ou ilustração da minha pessoa" class="content__profile--profile_picture">
+            <img src="assets/img/perfil.png" alt="Foto ou ilustração da minha pessoa" class="content__profile--profile_picture" title="Foto ou ilustração da minha pessoa">
         </div>
         <div class="content__profile--about">
             <h2 class="content__profile--about_name">Gabriel Estéfono</h2>
             <p class="content__profile--about_hability front">Front-end</p>
             <div class="content__profile--about_cards">
-                <div class="smallcard__template"><img src="assets/img/js.png" alt="JavaScript" class="smallcard__template--image"></div>
-                <div class="smallcard__template"><img src="assets/img/js.png" alt="JavaScript" class="smallcard__template--image"></div>
-                <div class="smallcard__template"><img src="assets/img/js.png" alt="JavaScript" class="smallcard__template--image"></div>
+                <div class="smallcard__template"><img src="assets/img/js.png" alt="Habilidade com JavaScript" class="smallcard__template--image" title="Habilidade com JavaScript"></div>
             </div>
             <p class="content__profile--about_hability">Back-end</p>
             <div class="content__profile--about_cards">
-                <div class="smallcard__template"><img src="assets/img/js.png" alt="JavaScript" class="smallcard__template--image"></div>
+                <div class="smallcard__template"><img src="assets/img/js.png" alt="Habilidade com JavaScript" class="smallcard__template--image" title="Habilidade com JavaScript"></div>
             </div>
             <p class="content__profile--about_hability">Outros conhecimentos</p>
             <div class="content__profile--about_cards">
-                <div class="smallcard__template"><img src="assets/img/js.png" alt="JavaScript" class="smallcard__template--image"></div>
+                <div class="smallcard__template"><img src="assets/img/js.png" alt="Habilidade com JavaScript" class="smallcard__template--image" title="Habilidade com JavaScript"></div>
             </div>
         </div>
     </div>
@@ -41,6 +39,87 @@ include_once("./templates/header.php");
 </section>
 <section class="showcards">
     <div class="showcards__navbar"></div>
+    <div class="showcards__cards">
+    <div class="showcards__cards--card">
+            <div class="card__picture"></div>
+            <div class="card__name">Nome do repositório aqui</div>
+            <div class="card__tech">
+            <div class="card__tech--tech">
+                    <img src="assets/img/js.png" alt="" class="card__tech--tech--img">
+                </div>
+                <div class="card__tech--tech">
+                    <img src="assets/img/js.png" alt="" class="card__tech--tech--img">
+                </div>
+                <div class="card__tech--tech">
+                    <img src="assets/img/js.png" alt="" class="card__tech--tech--img">
+                </div>
+                <div class="card__tech--tech">
+                    <img src="assets/img/js.png" alt="" class="card__tech--tech--img">
+                </div>
+                <div class="card__tech--tech">
+                    <img src="assets/img/js.png" alt="" class="card__tech--tech--img">
+                </div>
+                <div class="card__tech--tech">
+                    <img src="assets/img/js.png" alt="" class="card__tech--tech--img">
+                </div>
+                <div class="card__tech--tech">
+                    <img src="assets/img/js.png" alt="" class="card__tech--tech--img">
+                </div>
+                <div class="card__tech--tech">
+                    <img src="assets/img/js.png" alt="" class="card__tech--tech--img">
+                </div>
+            </div>
+        </div>
+        <div class="showcards__cards--card">
+            <div class="card__picture"></div>
+            <div class="card__name"></div>
+            <div class="card__tech">
+                <div class="card__tech--tech"></div>
+            </div>
+        </div>
+        <div class="showcards__cards--card">
+            <div class="card__picture"></div>
+            <div class="card__name"></div>
+            <div class="card__tech">
+                <div class="card__tech--tech"></div>
+            </div>
+        </div>
+        <div class="showcards__cards--card">
+            <div class="card__picture"></div>
+            <div class="card__name"></div>
+            <div class="card__tech">
+                <div class="card__tech--tech"></div>
+            </div>
+        </div>
+        <div class="showcards__cards--card">
+            <div class="card__picture"></div>
+            <div class="card__name"></div>
+            <div class="card__tech">
+                <div class="card__tech--tech"></div>
+            </div>
+        </div>
+        <div class="showcards__cards--card">
+            <div class="card__picture"></div>
+            <div class="card__name"></div>
+            <div class="card__tech">
+                <div class="card__tech--tech"></div>
+            </div>
+        </div>
+        <div class="showcards__cards--card">
+            <div class="card__picture"></div>
+            <div class="card__name"></div>
+            <div class="card__tech">
+                <div class="card__tech--tech"></div>
+            </div>
+        </div>
+        <div class="showcards__cards--card">
+            <div class="card__picture"></div>
+            <div class="card__name"></div>
+            <div class="card__tech">
+                <div class="card__tech--tech"></div>
+            </div>
+        </div>
+    </div>
 </section>
 
 <?php
