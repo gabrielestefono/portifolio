@@ -121,6 +121,23 @@ include_once("./templates/header.php");
         </div>
     </div>
 </section>
+<section class="contact">
+    <div  class="contact__title">
+        <p class="contact__title--text">Contato</p>
+    </div>
+    <div class="contact__form">
+        <form action="" class="contact__form--space">
+            <div><input type="text" name="" id=""  class="contact__form--space_name contact__form--space_item"></div>
+            <div><input type="email" name="" id=""  class="contact__form--space_email  contact__form--space_item"></div>
+            <div><input type="tel" name="" id="" class="contact__form--space_phone  contact__form--space_item"></div>
+            <div><textarea name="" id="" cols="30" rows="10"  class="contact__form--space_message"></textarea></div>
+            <div><button type="submit"  class="contact__form--space_button  contact__form--space_item">Enviar</button></div>
+        </form>
+        <div class="contact__form--keyboard">
+            <img src="assets/img/teclado.png" alt="" class="contact__form--keyboard_img">
+        </div>
+    </div>
+</section>
 
 <?php
 include_once("./templates/footer.php");

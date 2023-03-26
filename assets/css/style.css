@@ -1,8 +1,9 @@
-@import url("reset.css");
-@import url("header.css");
-@import url("content_profile.css");
-@import url("content_about.css");
-@import url("showcards.css");
+@import url(reset.css);
+@import url(header.css);
+@import url(content_profile.css);
+@import url(content_about.css);
+@import url(showcards.css);
+@import url(contact.css);
 
 body{
     background-image: radial-gradient(#394044, #0E1316);
