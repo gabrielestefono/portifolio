@@ -1,0 +1,14 @@
+@import url(reset.css);
+@import url(header/header.css);
+@import url(hero/hero.css);
+@import url(about/about.css);
+@import url(projects/projects.css);
+@import url(ability/ability.css);
+@import url(contact/contact.css);
+@import url(footer/footer.css);
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #222;
+}
