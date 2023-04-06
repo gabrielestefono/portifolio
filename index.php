@@ -1,12 +1,14 @@
 <?php
+session_start();
 include_once("./helpers/url.php");
 include_once("./templates/header.php");
 include_once("./helpers/db_request.php");
+session_destroy();
 ?>
         <section class="hero">
             <h1 class="hero__name">Gabriel Estéfono</h1>
             <p class="hero__presents">Desenvolvedor Full-Stack</p>
-            <button class="hero__see">Veja meus projetos</button>
+            <a href="edit.php"><button class="hero__see">Veja meus projetos</button></a>
         </section>
         <section class="about">
             <h2 class="about__title">Sobre mim</h2>
