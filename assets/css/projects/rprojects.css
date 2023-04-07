@@ -1,0 +1,26 @@
+.rprojetos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #444;
+    min-height: 90vh;
+}
+
+.rprojetos__title{
+    font-size: 2rem;
+    margin: 0.5rem 0;
+}
+
+.rprojetos__description{
+    max-width: 600px;
+    margin: 0.5rem 0;
+}
+
+.rprojetos__tech{
+    margin: 0.5rem 0;
+}
+
+.rprojetos__link{
+    color: rgb(0, 227, 227);
+    text-decoration: none;
+}
