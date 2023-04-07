@@ -1,0 +1,90 @@
+.change{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #444;
+}
+
+.change__title{
+    font-size: 1.5rem;
+    margin: 2rem;
+}
+
+.change__title--table{
+    border: 1px solid #fff;
+}
+
+.change__title--table_header{
+    font-size: 1.5rem;
+    border: 1px solid #fff;
+}
+
+.change__title--table_header-item-1{
+    width: 3rem;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.change__title--table_header-item-2{
+    width: 18rem;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.change__title--table_header-item-3{
+    width: 5rem;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.change__title--table_header-item-4{
+    width: 5rem;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.change__title--table_header-item-5{
+    width: 3rem;
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.change__title--table_items-1{
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.change__title--table_items-2{
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.change__title--table_items-3{
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.change__title--table_items-4{
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.change__title--table_items-5{
+    text-align: center;
+    border: 1px solid #fff;
+}
+
+.change__title--table_create-item{
+    text-align: center;
+}
+
+.change__button{
+    margin: 3rem;
+    padding:1rem 2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: #222;
+    color: #fff;
+    cursor: pointer;
+}

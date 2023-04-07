@@ -9,6 +9,7 @@
 @import url(login/login.css);
 @import url(send/project.css);
 @import url(navbar-aux/navaux.css);
+@import url(change/about.css);
 
 body {
     font-family: Arial, sans-serif;

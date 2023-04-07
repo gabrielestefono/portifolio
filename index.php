@@ -3,7 +3,8 @@ session_start();
 include_once("./helpers/url.php");
 include_once("./templates/header.php");
 include_once("./helpers/db_request.php");
-include_once("./templates/secondary-sections/secnavbar.php");
+include_once("./templates/primary-sections/ability.php");
+include_once("./templates/secondary-sections/ability-list.php");
 include_once("./helpers/db_request.php");
 if($_SERVER['REQUEST_METHOD'] ==  'POST'){
     $requisicao = "./templates/secondary-sections/" . $_POST['pagina'] . ".php";
