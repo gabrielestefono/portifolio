@@ -8,9 +8,11 @@
 @import url(footer/footer.css);
 @import url(login/login.css);
 @import url(send/project.css);
+@import url(navbar-aux/navaux.css);
 
 body {
     font-family: Arial, sans-serif;
     color: #fff;
     background-color: #222;
+    min-height: 100vh;
 }
