@@ -10,7 +10,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
     if($nome == 'gabriel' && $senha == 'gabriel'){
         $_SESSION['nome'] = $nome;
-        header('location: edit.php');
+        header('location: admin.php');
     }else{
         echo "Senha ou email errados, parça!";
     }

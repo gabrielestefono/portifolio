@@ -1,0 +1,65 @@
+.adminprojects{
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #444;
+}
+
+.adminprojects__title{
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.adminprojects__table{
+    width: 50vw;
+    margin-top: 2rem;
+}
+
+.adminprojects__table--thead{
+    font-size: 1.5rem;
+    background-color: #fff;
+    color: black;
+    border: 2px solid #000;
+}
+
+.adminprojects__table--thead_title{
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.adminprojects__table--row_id{
+    text-align: center;
+}
+
+.adminprojects__table--row_text{
+    text-align: center;
+}
+
+.adminprojects__table--row_see{
+    text-align: center;
+}
+
+.adminprojects__table--row_edit{
+    text-align: center;
+}
+
+.adminprojects__table--row_delete{
+    text-align: center;
+}
+
+.adminprojects__table--row_item{
+    border: 1px solid #fff;
+}
+
+.adminprojects__button{
+    width: 20vw;
+    margin: 3rem;
+    height: 4rem;
+    font-size: 2rem;
+    background-color: #222;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+}

@@ -1,4 +1,4 @@
-        <section class="contact">
+        <section class="contact" id="contato">
             <h2 class="contact__title">Contato</h2>
             <p class="contact__text">Olá! Eu sou um desenvolvedor e criei este portfólio para mostrar meu trabalho.</p>
             <p class="contact__text">Se quiser trabalhar comigo ou apenas conversar sobre desenvolvimento de software, entre em contato. </p>

@@ -1,4 +1,4 @@
-        <section class="projects">
+        <section class="projects" id="projetos">
             <h2 class="projects__title">Projetos</h2>
             <div class="projects__cards">
                 <?php foreach($resultado as $projeto):?>

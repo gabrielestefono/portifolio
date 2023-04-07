@@ -1,4 +1,4 @@
-        <section class="ability">
+        <section class="ability" id="habilidades">
             <h2 class="ability__title">Habilidades</h2>
             <div class="ability__categories">
                 <div class="ability__categories--category">

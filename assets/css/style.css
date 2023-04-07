@@ -1,15 +1,19 @@
 @import url(reset.css);
 @import url(header/header.css);
+@import url(header/headeradmin.css);
 @import url(hero/hero.css);
 @import url(about/about.css);
+@import url(about/adminabout.css);
 @import url(projects/projects.css);
+@import url(projects/adminprojects.css);
 @import url(ability/ability.css);
+@import url(ability/adminability.css);
 @import url(contact/contact.css);
+@import url(contact/admincontact.css);
 @import url(footer/footer.css);
 @import url(login/login.css);
 @import url(send/project.css);
 @import url(navbar-aux/navaux.css);
-@import url(change/about.css);
 
 body {
     font-family: Arial, sans-serif;

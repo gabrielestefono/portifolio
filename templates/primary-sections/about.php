@@ -1,4 +1,4 @@
-        <section class="about">
+        <section class="about" id="sobre-mim">
             <h2 class="about__title">Sobre mim</h2>
             <div class="about__content">
                 <img src="assets/img/foto.png" alt="Foto do desenvolvedor" class="about__content--profile"> 
