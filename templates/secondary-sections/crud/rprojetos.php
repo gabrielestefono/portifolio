@@ -16,6 +16,7 @@
 ?>
 
 <section class="rprojetos">
+    <img class="rprojetos__imagem" src="<?=$seeprojetos->imagem?>">
     <p class="rprojetos__title"><?=$seeprojetos->nome?></p>
     <p class="rprojetos__description"><?=$seeprojetos->descricao?></p>
     <p class="rprojetos__tech"><?=$seeprojetos->tech1?></p>
