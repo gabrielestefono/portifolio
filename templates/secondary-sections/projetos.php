@@ -11,10 +11,10 @@
         <tr class="adminprojects__table--row">
             <td class="adminprojects__table--row_id adminprojects__table--row_item">1</td>
             <td class="adminprojects__table--row_text adminprojects__table--row_item">Alurabox</td>
-            <td class="adminprojects__table--row_see adminprojects__table--row_item"><i class="fa-regular fa-eye"></i></td>
-            <td class="adminprojects__table--row_edit adminprojects__table--row_item"><i class="fa-regular fa-pen-to-square"></i></td>
-            <td class="adminprojects__table--row_delete adminprojects__table--row_item"><i class="fa-regular fa-trash-can"></i></td>
+            <td class="adminprojects__table--row_see adminprojects__table--row_item"><a href="admin.php?pag=crud/rprojetos.php" class="adminprojects__table--row_item-link"><i class="fa-regular fa-eye"></i></a></td>
+            <td class="adminprojects__table--row_edit adminprojects__table--row_item"><a href="admin.php?pag=crud/uprojetos.php" class="adminprojects__table--row_item-link"><i class="fa-regular fa-pen-to-square"></i></a></td>
+            <td class="adminprojects__table--row_delete adminprojects__table--row_item"><a href="admin.php?pag=crud/dprojetos.php" class="adminprojects__table--row_item-link"><i class="fa-regular fa-trash-can"></i></a></td>
         </tr>
     </table>
-    <button class="adminprojects__button">Criar novo</button>
+    <a href="admin.php?pag=crud/cprojetos.php" class="adminprojects__button">Criar novo</a>
 </section>

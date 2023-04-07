@@ -41,7 +41,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     $query = "INSERT INTO `projetos`(`id`, `nome`, `objeto`) VALUES ('$id', '$nome' ,'$objeto')";
     $stmt = $conn->prepare($query);
     $stmt->execute();
-    header('location: ../edit.php');
+    header('location: ../admin.php');
 }
 
 $conn = null;
