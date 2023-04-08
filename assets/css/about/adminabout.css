@@ -52,6 +52,10 @@
     border: 1px solid #fff;
 }
 
+.adminabout__table--row_item-link{
+    color: #fff;
+}
+
 .adminabout__button{
     width: 20vw;
     margin: 3rem;
@@ -62,4 +66,7 @@
     border-radius: 10px;
     cursor: pointer;
     color: #fff;
+    text-align: center;
+    line-height: 4rem;
+    text-decoration: none;
 }
