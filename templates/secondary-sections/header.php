@@ -12,10 +12,10 @@
     <a href="<?=$BASE_URL?>"><img src="assets/img/logo.png" alt="Logo" class="headeradmin__logo"></a>
     <nav class="headeradmin__nav">
       <ul class="headeradmin__nav--ul" id="show">
-        <li class="headeradmin__nav--ul_li"><a href="admin.php?pag=sobre-mim.php" class="headeradmin__nav--ul_li-a links">Sobre mim</a></li>
-        <li class="headeradmin__nav--ul_li"><a href="admin.php?pag=projetos.php" class="headeradmin__nav--ul_li-a links">Projetos</a></li>
-        <li class="headeradmin__nav--ul_li"><a href="admin.php?pag=habilidade.php" class="headeradmin__nav--ul_li-a links">Habilidades</a></li>
-        <li class="headeradmin__nav--ul_li"><a href="admin.php?pag=contato.php" class="headeradmin__nav--ul_li-a links">Contato</a></li>
+        <li class="headeradmin__nav--ul_li"><a href="admin.php?pag=sobre-mim.php&type=1" class="headeradmin__nav--ul_li-a links">Sobre mim</a></li>
+        <li class="headeradmin__nav--ul_li"><a href="admin.php?pag=projetos.php&type=1" class="headeradmin__nav--ul_li-a links">Projetos</a></li>
+        <li class="headeradmin__nav--ul_li"><a href="admin.php?pag=habilidade.php&type=1" class="headeradmin__nav--ul_li-a links">Habilidades</a></li>
+        <li class="headeradmin__nav--ul_li"><a href="admin.php?pag=contato.php&type=1" class="headeradmin__nav--ul_li-a links">Contato</a></li>
       </ul>
     </nav>
     <div class="headeradmin__hamburger" id="hamburger">&#9776;</div>
