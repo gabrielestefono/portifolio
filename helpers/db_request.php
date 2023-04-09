@@ -30,5 +30,10 @@ $stmt->execute();
 $listaHabilidade = $stmt->fetchAll(PDO::FETCH_ASSOC);
 $stmt = null;
 
+$stmt = $conn->prepare("SELECT * FROM `mensagens`");
+$stmt->execute();
+$listamensagens = $stmt->fetchAll(PDO::FETCH_ASSOC);
+$stmt = null;
+
 ?>
 
