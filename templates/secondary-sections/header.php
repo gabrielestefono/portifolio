@@ -16,6 +16,7 @@
         <li class="headeradmin__nav--ul_li"><a href="admin.php?pag=projetos.php&type=1" class="headeradmin__nav--ul_li-a links">Projetos</a></li>
         <li class="headeradmin__nav--ul_li"><a href="admin.php?pag=habilidade.php&type=1" class="headeradmin__nav--ul_li-a links">Habilidades</a></li>
         <li class="headeradmin__nav--ul_li"><a href="admin.php?pag=contato.php&type=1" class="headeradmin__nav--ul_li-a links">Contato</a></li>
+        <li class="headeradmin__nav--ul_li"><a href="admin.php?pag=mensagens.php&type=1" class="headeradmin__nav--ul_li-a links">Mensagens</a></li>
       </ul>
     </nav>
     <div class="headeradmin__hamburger" id="hamburger">&#9776;</div>

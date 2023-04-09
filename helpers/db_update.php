@@ -59,14 +59,23 @@ if($_GET['update'] == 'projetos'){
     $stmt = null;
     header('location: ../admin.php?pag=habilidade.php&type=1');
 }if($_GET['update'] == 'tipo'){
-    $stmt = $conn->prepare("UPDATE tipo_habilidade SET tipo=:tipo WHERE id=:id ");
     $id = $_GET['see'];
     $tipo = $_POST['tipo'];
+    $stmt = $conn->prepare("UPDATE tipo_habilidade SET tipo=:tipo WHERE id=:id ");
     $stmt->bindParam(':id', $id);
     $stmt->bindParam(':tipo', $tipo);
     $stmt->execute();
     $stmt = null;
     header('location: ../admin.php?pag=habilidade.php&type=1');
+}if($_GET['update'] == 'contato'){
+    $id = $_GET['see'];
+    $texto = $_POST['texto'];
+    $stmt = $conn->prepare("UPDATE contact SET texto=:texto WHERE id=:id ");
+    $stmt->bindParam(':id', $id);
+    $stmt->bindParam(':texto', $texto);
+    $stmt->execute();
+    $stmt = null;
+    header('location: ../admin.php?pag=contato.php&type=1');
 }
 $stmt = null;
 $conn = null;

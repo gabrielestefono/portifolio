@@ -87,6 +87,19 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
             $stmt->bindParam(':tipo', $tipo);
             $stmt->execute();
             header('location: ../admin.php?pag=habilidade.php&type=1');
+        }else if($_GET['criar'] == 'contato'){
+            $id = '';
+            $texto = $_POST['texto'];
+            $host = "localhost";
+            $db = "portfolio";
+            $user = "gabriel";
+            $password = "teste123";
+            $conn = new PDO("mysql:host=$host;dbname=$db", $user, $password);
+            $stmt = $conn->prepare("INSERT INTO contact(id, texto) VALUES (:id,:texto)");
+            $stmt->bindParam(':id',$id);
+            $stmt->bindParam(':texto', $texto);
+            $stmt->execute();
+            header('location: ../admin.php?pag=contato.php&type=1');
         }
     }
 }
