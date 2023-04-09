@@ -11,7 +11,7 @@ if($_SERVER['REQUEST_METHOD'] == 'GET'){
 ?>
 
 <section class="uprojetos">
-    <form action="helpers/db_update.php?see=<?=$_GET['see']?>" class="uprojetos__form" method="POST">
+    <form action="helpers/db_update.php?update=projetos&see=<?=$_GET['see']?>" class="uprojetos__form" method="POST">
         <img src="<?=$seeprojetos->imagem?>" class="uprojetos__form--img">
         <input type="file"  name="imagem" value="<?=$seeprojetos->imagem?>" class="uprojetos__form--file">
         <input type="text"  name="nome" placeholder="Nome"value="<?=$seeprojetos->nome?>"  class="uprojetos__form--input">

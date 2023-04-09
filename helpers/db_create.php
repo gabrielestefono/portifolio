@@ -57,6 +57,36 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
             $stmt->bindParam(':paragrafo', $textosalvo);
             $stmt->execute();
             header('location: ../admin.php?pag=sobre-mim.php&type=1');
+        }else if($_GET['criar'] == 'habilidade'){
+            $id = '';
+            $novaHabilidade = $_POST['habilidade'];
+            $novaHabilidadeImagem = "assets/img/" . $_POST['file'];
+            $novaHabilidadeTipo = $_POST['tipo'];
+            $host = "localhost";
+            $db = "portfolio";
+            $user = "gabriel";
+            $password = "teste123";
+            $conn = new PDO("mysql:host=$host;dbname=$db", $user, $password);
+            $stmt = $conn->prepare("INSERT INTO habilidades (id, nome, imagem, tipo) VALUES (:id ,:nome, :imagem, :tipo)");
+            $stmt->bindParam(':id',$id);
+            $stmt->bindParam(':nome', $novaHabilidade);
+            $stmt->bindParam(':imagem', $novaHabilidadeImagem);
+            $stmt->bindParam(':tipo', $novaHabilidadeTipo);
+            $stmt->execute();
+            header('location: ../admin.php?pag=habilidade.php&type=1');
+        }else if($_GET['criar'] == 'tipo'){
+            $id = '';
+            $tipo = $_POST['tipo'];
+            $host = "localhost";
+            $db = "portfolio";
+            $user = "gabriel";
+            $password = "teste123";
+            $conn = new PDO("mysql:host=$host;dbname=$db", $user, $password);
+            $stmt = $conn->prepare("INSERT INTO tipo_habilidade(id, tipo) VALUES (:id,:tipo)");
+            $stmt->bindParam(':id',$id);
+            $stmt->bindParam(':tipo', $tipo);
+            $stmt->execute();
+            header('location: ../admin.php?pag=habilidade.php&type=1');
         }
     }
 }
