@@ -1,7 +1,7 @@
 <?php
-    foreach($paragrafos as $paragrafo){
-        if($paragrafo['id'] == $_GET['see']){
-            $paragrafoselecionado = $paragrafo['paragrafo'];
+    foreach($listaabout as $itemabout){
+        if($itemabout['id'] == $_GET['see']){
+            $paragrafoselecionado = $itemabout['paragrafo'];
         }
     }
 ?>

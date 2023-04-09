@@ -1,9 +1,8 @@
         <section class="contact" id="contato">
             <h2 class="contact__title">Contato</h2>
-            <p class="contact__text">Olá! Eu sou um desenvolvedor e criei este portfólio para mostrar meu trabalho.</p>
-            <p class="contact__text">Se quiser trabalhar comigo ou apenas conversar sobre desenvolvimento de software, entre em contato. </p>
-            <p class="contact__text">Vamos trocar ideias e ver como podemos colaborar. </p>
-            <p class="contact__text">Obrigado por visitar meu portfólio!</p>
+            <?php foreach($listacontact as $itemcontact): ?>
+            <p class="contact__text"><?=$itemcontact['texto']?></p>
+            <?php endforeach;?>
             <form class="contact__form">
                 <input type="text" placeholder="Nome" class="contact__form--input" required>
                 <input type="email" placeholder="E-mail" class="contact__form--input" required>

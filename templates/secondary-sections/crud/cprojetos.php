@@ -1,5 +1,5 @@
 <section class="cprojetos">
-    <form action="helpers/db_save.php" class="cprojetos__form" method="POST">
+    <form action="helpers/db_create.php?criar=projeto" class="cprojetos__form" method="POST">
         <input type="file"  name="imagem" class="cprojetos__form--file">
         <input type="text"  name="nome" placeholder="Nome" class="cprojetos__form--input">
         <input type="text"  name="descricao" placeholder="Descrição" class="cprojetos__form--input">
