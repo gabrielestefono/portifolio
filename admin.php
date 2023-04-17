@@ -28,10 +28,10 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
     if(isset($_POST['editarparagrafo'])){
     $id = $_GET['edit'];
     $textosalvo = $_POST['editarparagrafo'];
-    $host = "localhost";
-    $db = "portfolio";
-    $user = "gabriel";
-    $password = "teste123";
+    $host = "mysql670.umbler.com";
+    $db = "gabrielestefonop";
+    $user = "botblaze";
+    $password = "eunaosei";
     $conn = new PDO("mysql:host=$host;dbname=$db", $user, $password);
     $stmt = $conn->prepare("UPDATE about_me_paragraph SET paragrafo=:paragrafo WHERE id=:id");
     $stmt->bindParam(':id',$id);

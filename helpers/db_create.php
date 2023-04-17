@@ -20,10 +20,10 @@ class Projeto{
 }
 
 
-$host = "localhost";
-$db = "portfolio";
-$user = "gabriel";
-$password = "teste123";
+$host = "mysql670.umbler.com";
+$db = "gabrielestefonop";
+$user = "botblaze";
+$password = "eunaosei";
 $conn = new PDO("mysql:host=$host;dbname=$db", $user, $password);
 
 if($_SERVER['REQUEST_METHOD'] == 'POST'){

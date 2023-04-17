@@ -1,8 +1,8 @@
 <?php
-    $host = "localhost";
-    $db = "portfolio";
-    $user = "gabriel";
-    $password = "teste123";
+    $host = "mysql670.umbler.com";
+    $db = "gabrielestefonop";
+    $user = "botblaze";
+    $password = "eunaosei";
 
     if($_SERVER['REQUEST_METHOD'] == 'GET'){
         $conn = new PDO("mysql:host=$host; dbname=$db", $user, $password);
