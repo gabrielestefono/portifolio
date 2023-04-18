@@ -1,0 +1,30 @@
+@import url(reset.css);
+@import url(header/header.css);
+@import url(ability/ability.css);
+@import url(ability/adminability.css);
+@import url(about/about.css);
+@import url(about/cabout.css);
+@import url(about/rabout.css);
+@import url(about/uabout.css);
+@import url(about/adminabout.css);
+@import url(contact/contact.css);
+@import url(contact/admincontact.css);
+@import url(header/headeradmin.css);
+@import url(hero/hero.css);
+@import url(login/login.css);
+@import url(navbar-aux/navaux.css);
+@import url(projects/projects.css);
+@import url(projects/adminprojects.css);
+@import url(projects/cprojects.css);
+@import url(projects/rprojects.css);
+@import url(projects/uprojects.css);
+@import url(projects/dprojects.css);
+@import url(send/project.css);
+@import url(footer/footer.css);
+
+body {
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #222;
+    min-height: 100vh;
+}

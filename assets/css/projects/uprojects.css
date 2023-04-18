@@ -1,0 +1,45 @@
+.uprojetos{
+    min-height: 90vh;
+    background-color: #444;
+    padding-top: 2rem;
+}
+
+.uprojetos__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.uprojetos__form--img{
+    width: 400px;
+    height: 200px;
+    margin-bottom: 1rem;
+}
+
+.uprojetos__form--file{
+    margin-bottom: 1rem;
+}
+
+.uprojetos__form--input{
+    width: 14.75rem;
+    padding: 0 1rem;
+    margin: 0.5rem;
+    height: 2rem;
+    background-color: #333;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.uprojetos__form--button{
+    padding: 0.5rem 1rem;
+    margin-top: 2rem;
+    width: 16.75rem;
+    font-size: 2rem;
+    border-radius: 20px;
+    background-color: #222;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}

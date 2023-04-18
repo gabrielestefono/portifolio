@@ -1,0 +1,10 @@
+.rabout{
+    min-height: 90vh;
+}
+
+.rabout__text{
+    width: 40vw;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
