@@ -4,4 +4,12 @@
     @endcomponent
     @component('site.layouts._components.sobremim')
     @endcomponent
+    @component('site.layouts._components.projetos')
+    @endcomponent
+    @component('site.layouts._components.habilidades')
+    @endcomponent
+    @component('site.layouts._components.contato')
+    @endcomponent
+    @component('site.layouts._components.footer')
+    @endcomponent
 @endsection
