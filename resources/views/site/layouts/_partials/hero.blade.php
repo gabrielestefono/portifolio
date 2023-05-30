@@ -1,4 +1,3 @@
-<link rel="stylesheet" href="style.css">
 <section class="hero">
     <h1 class="hero__name">Gabriel Estéfono</h1>
     <p class="hero__presents">Desenvolvedor Full-Stack</p>

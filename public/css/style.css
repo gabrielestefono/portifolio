@@ -1,5 +1,6 @@
 @import url(reset.css);
 @import url(header.css);
+@import url(hero.css);
 
 body {
     font-family: Arial, sans-serif;
