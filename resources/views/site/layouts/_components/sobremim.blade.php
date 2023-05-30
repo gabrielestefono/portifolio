@@ -9,6 +9,6 @@
             <p class="about__content--presents">No back-end, tenho experiência em algumas linguagens de programação, como Python, PHP, e Linguagem C, bem como o framework Django. Também tenho experiência com bancos de dados relacionais, como MySQL e PDO.</p>
             <p class="about__content--presents">Se você está procurando um Desenvolvedor Full Stack motivado, dedicado e altamente qualificado para ajudar a impulsionar seu projeto ou empresa, não hesite em entrar em contato comigo. Estou ansioso para colaborar com você e criar soluções excepcionais juntos!</p>
         </div>
-        <a href="curriculo.pdf" class="about__content--cv" download="">Baixar currículo</a>
+        <a href="curriculo.pdf" class="about__content--cv" download="{{asset('curriculo.pdf')}}">Baixar currículo</a>
     </div>
 </section>
