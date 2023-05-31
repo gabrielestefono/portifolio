@@ -16,6 +16,7 @@
                 <li class="header__nav--ul_li"><a href="#projetos" class="header__nav--ul_li-a links">Projetos</a></li>
                 <li class="header__nav--ul_li"><a href="#habilidades" class="header__nav--ul_li-a links">Habilidades</a></li>
                 <li class="header__nav--ul_li"><a href="#contato" class="header__nav--ul_li-a links">Contato</a></li>
+                <li class="header__nav--ul_li"><a href="{{route('site.login')}}" class="header__nav--ul_li-a links"> <img src="{{asset('img/profile_default.png')}}" class="profile"/> </a></li>
             </ul>
             </nav>
             <div class="header__hamburger" id="hamburger">☰</div>

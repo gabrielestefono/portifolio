@@ -6,6 +6,7 @@
 @import url(habilidades.css);
 @import url(footer.css);
 @import url(contato.css);
+@import url(login.css);
 
 body {
     font-family: Arial, sans-serif;

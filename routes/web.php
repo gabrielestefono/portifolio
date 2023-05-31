@@ -14,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get("/", [\App\Http\Controllers\indexController::class, 'index'])->name("site.index");
+Route::get("/login", [\App\Http\Controllers\LoginController::class, 'login'])->name("site.login");
+Route::post("/login", [\App\Http\Controllers\LoginController::class, 'login'])->name("site.login");
+Route::get("/register", [\App\Http\Controllers\registerController::class, 'registro'])->name("site.registro");
 
 Route::prefix("/admin")->group(function(){
     Route::get("/sobre-mim", function(){return "Sobre Mim";})->name("site.sobre");
@@ -21,6 +24,11 @@ Route::prefix("/admin")->group(function(){
     Route::get("/habilidades", function(){return "Habilidades";})->name("site.habilidades");
     Route::get("/contato", function(){return "Contatos";})->name("site.contatos");
     Route::get("/mensagens", function(){return "Mensagens";})->name("site.mensagens");
+});
+
+Route::prefix("/app")->group(function(){
+    Route::get("/projects", function(){return "Sobre Mim";})->name("site.projects");
+    Route::post("/projeto", function(){return "Projeto";});
 });
 
 Route::fallback(function(){
